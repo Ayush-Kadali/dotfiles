@@ -1,0 +1,7 @@
+alias ll='ls -lah'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+alias d='dirs -v'
+for indes ({1..9}) alias "indes"="cd +${index}"; unset index

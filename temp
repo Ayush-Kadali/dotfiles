@@ -1,0 +1,18 @@
+If it works for other repositories, but not one in particular, then you are probably using the wrong remote url(i.e. https instead of git@github.com)
+
+First, double check that your git ssh connection is working:
+
+ ssh -T git@github.com
+If it works, check your remote:
+
+ git remote -v
+it will display something like this:
+
+ origin  https://github.com/ownername/repo(fetch)
+ origin  https://github.com/ownername/repo(push)
+where ownername is either your username or your organization name (the "owner" of the repository).
+
+If the remotes indicate https at the beginning, then you need to change this url with:
+
+ git remote set-url origin git@github.com:ownername/repo.git
+Go here for more details.
