@@ -3,6 +3,6 @@ xrdb -merge ~/.config/X11/.Xresources
 udiskie &
 
 # setxbmap -option caps:escape
-setxbmap -option 'caps:ctrl_modifier';xcape -e 'Caps_Lock=Escape'&
+setxkbmap -option 'caps:ctrl_modifier';xcape -e 'Caps_Lock=Escape'&
 
 exec i3
