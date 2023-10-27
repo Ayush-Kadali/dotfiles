@@ -54,4 +54,6 @@ bindkey -r '^l'
 bindkey -r '^g'
 bindkey -s '^g' 'clear\n'
 
+ftmuxp
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
