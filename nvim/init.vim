@@ -5,6 +5,7 @@ call plug#begin("$XDG_CONFIG_HOME/nvim/plugged")
     Plug 'simeji/winresizer'
     Plug 'junegunn/fzf.vim'
     Plug 'simnalamburt/vim-mundo'
+    Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 
@@ -53,4 +54,8 @@ augroup END
 
 " Config for fzf.vim (BONUS :D)
 nnoremap <leader>f :Files<cr>
+
+
+
+nnoremap <c-w>h <c-w>s
 
