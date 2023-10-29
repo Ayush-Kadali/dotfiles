@@ -8,6 +8,7 @@ call plug#begin("$XDG_CONFIG_HOME/nvim/plugged")
     Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
+syntax on
 
 set clipboard+=unnamedplus
 
@@ -29,6 +30,7 @@ set undoreload=10000
 
 "set line number
 set number
+set relativenumber
 
 " use 4 spaces instead of tab()
 " copy indent from current line when starting a new line
@@ -37,6 +39,9 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set smartindent
+set termguicolors
+
 
 nnoremap <space> <nop>
 let mapleader = "\<space>"
