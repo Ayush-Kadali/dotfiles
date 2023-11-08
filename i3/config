@@ -296,6 +296,8 @@ exec urxvtc -name htop_scratchpad -e htop
 bar {
     status_command i3status --config ~/.config/i3/i3status.conf
     
+    position top
+    
     # Disable all tray icons
     tray_output none
 
